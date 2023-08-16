@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>RV College of Enginnering</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ <!---header-->
+ <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+           <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="Principal.html">PRINCIPAL</a></li>
+            <li><a href="COE.html">COE</a></li>
+            <li><a href="labs.html">LABS</a></li>
+            <li><a href="course.html">COURSE&INFRA</a></li>
+            <li><a href="Teachers/teachers.html">TEACHERS</a></li>
+            <li><a href="blog.html">PLACEMENTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="LOCATION/location.html">LOCATION</a></li>
+           </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>LABS INFRASTRUCTURE</h1>
+ </section>
+
+
+
+ </section>
+ <!--Course-->
+ <section class="facilities">
+    <h1>Department of Electronics & Instrumentation Engineering Labs Infrastructure</h1>
+    <p>The Department of Electronics & Instrumentation Engineering is spread over an area of 2706 square meters with well equipped six laboratories and six class rooms among which one is multimedia classroom (EI-417) and tutorial rooms for UG. The class rooms are having the facilities of Smart TV in First Year Classroom (EI-321) and LCD projectors for presenting the lectures and having sufficient space to can accommodate more than 60 students.<br><br>The department is having a sophisticated Library with a good collection of more than 1,806 Text & reference books.Department is also fully equipped with different cutting edge laboratories to give a proper hands on experience to  the students.</p>
+    
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/department libb Cropped.jpg">
+            <h3>Department library</h3>
+            <p>The department is having a sophisticated Library with a good collection of more than 1,806 Text & reference books, IEEE Journals, Magazines, Periodicals, CD's, Project Reports, Laboratory Manuals, etc.<br> The important laboratories along with their special equipments are listed below.<br><b><i>Room num: EI-XXX</i></b></p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/vlsi labb Cropped.jpg">
+            <h3>VLSI LAB</h3>
+            <p>VLSI Lab is set up for Autonomous students with Cadence simulating tool and with Xilinx FPGA Trainer Kits with interface module, Modelsim Software, built with an area of 1031 sq.ft.
+            <br>
+            DSP Kits (Texas), Code composer studio, Matlab. software with tool boxes.<br><b><i>Room num: EI-419</i></b></p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/R&D LAB Cropped.jpg">
+            <h3>R&D LAB</h3>
+            <p>The lab is equipped with latest simulators for ECG,EEG, EOG, Phlethysmography, Galvanic resistance system, Pacemaker system, Electrical Safety analyser, Audiometer. In all the equipments are provided with simulators and real time data acquisition is possible. It is built with an area of 107 sq. ft<br><b><i>Room num: EI-411</i></b></p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/download Cropped.png">
+            <h3>VI and DSA Lab</h3>
+            <p>This lab is mainly built to practice NI Data acquisition Cards, NI Elvis, myRIO,  myDAQ. Desktops & DSOs 100 MHz setup exists, with built up area of 891.sq.ft<br><b><i>Room num: EI-426</i></b></p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/iat Cropped.jpg">
+            <h3>IAT Lab</h3>
+            <p>This lab is mainly built to practice PLC, Level Control Trainer, Flow Control Trainer, Temperature Control Trainer, PID Controller Trainer, DC Postion Servo Mech Demo Unit, Inductive Transducer, Pressure Transducer Power Electronics Trainer kits, LCR Q Meters, M.,DSOs built with an area of 1138.sq.ft.<br><b><i>Room num: EI-423</i></b></p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/aec Cropped.png">
+            <h3>Analog Electronics Lab</h3>
+            <p>This lab mainly serves for CRO, DSO, Power Supply, Signal generator, Instrumentation Bridges, Instrumentation Trainer kits, LCR Q Bridge, Inductive transducer, Photo diode setup, Photo transistor setup, Capacitive pickup setup, Diaphragm type pressure transducer built with an area 1123.4 sq.ft.<br><b><i>Room num: EI-411</i></b></p>
+        </div>
+    </div>
+
+</section>
+
+
+<!---footer--->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>R.V. College of Engineering (RVCE) established in 1963 is one of the earliest self-financing engineering colleges in the country. The institution is run by Rashtreeya Sikshana Samithi Trust (RSST) a not for profit trust. The trust runs over 25 institutions and RVCE is the flagship institute under the trust. RVCE is today recognized as one of India’s leading technical institution.</p>
+    <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made By Farhan</p>
+</section>
+ <!---Javascript for toggle Menu-->
+ <script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+ </script> 
+</body>
+</html>

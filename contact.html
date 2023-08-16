@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>RV College of Enginnering</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!---header-->
+<section class="sub-header">
+    ,<nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="Principal.html">PRINCIPAL</a></li>
+            <li><a href="COE.html">COE</a></li>
+            <li><a href="labs.html">LABS</a></li>
+            <li><a href="course.html">COURSE&INFRA</a></li>
+            <li><a href="Teachers/teachers.html">TEACHERS</a></li>
+            <li><a href="blog.html">PLACEMENTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="LOCATION/location.html">LOCATION</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contact Us</h1>
+</section>
+<!---Contact us--->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.7509397044637!2d77.49651251490512!3d12.92372279088728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3ee159ba3729%3A0x75a3463d510cf26e!2sR.%20V.%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1671450369640!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>Mysore Rd, RV Vidyaniketan, Post</h5>
+                    <p>Bengaluru, Karnataka-560059, India</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+1 78977787980</h5>
+                    <p>Call is accepted on working days only,from 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <span>
+                    <h5>principal@rvce.edu.in</h5>
+                    <p>Email us for any further Query</p>
+                </span>
+            </div>
+
+        </div>
+        <div class="contact-col">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email"  placeholder="Enter Email Address" required>
+                <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                <textarea  rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+
+</section>
+<!---footer--->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>R.V. College of Engineering (RVCE) established in 1963 is one of the earliest self-financing engineering colleges in the country. The institution is run by Rashtreeya Sikshana Samithi Trust (RSST) a not for profit trust. The trust runs over 25 institutions and RVCE is the flagship institute under the trust. RVCE is today recognized as one of India’s leading technical institution.</p>
+    <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made By Farhan</p>
+</section>
+<!---Javascript for toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script> 
+</body>
+</html>

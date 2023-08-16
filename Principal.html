@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>RV College of Engineering</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!---header-->
+ <section class="sub-header">
+    ,<nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+           <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="Principal.html">PRINCIPAL</a></li>
+            <li><a href="COE.html">COE</a></li>
+            <li><a href="labs.html">LABS</a></li>
+            <li><a href="course.html">COURSE&INFRA</a></li>
+            <li><a href="Teachers/teachers.html">TEACHERS</a></li>
+            <li><a href="blog.html">PLACEMENTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="LOCATION/location.html">LOCATION</a></li>
+           </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Principal, RV College of Engineering</h1>
+ </section>
+ <!--about us content-->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Principal</h1>
+            <p>Dr. K N Subramanya is presently working as Principal and Professor, Department of Industrial Engineering and Management at R V College of Engineering. His Academic Qualification includes: Ph.D. in Supply Chain Management (Avinashilingam University, Coimbatore), MBA with HR specialization (5th Rank), M.Tech. in Industrial Management (IITM, Chennai) and B.E in Industrial and Production Engineering (Bangalore University). His 23 years of experience includes teaching, training and research. The professional expertise include Lean Manufacturing System, Operations Management, Intelligent Systems in Supply Chain and Logistics Management, e-Enterprise solutions, Simulation Modeling and Analysis, Systems Engineering, Operations Research, Probability & Statistics, Applied Ergonomics and Business Process Management.<br><br>
+
+            He is a research supervisor of four scholars, who are pursuing doctoral program in Lean Supply Chain Networks, Cloud SCN, Designing E-Procurement Models and Performance of B2B markets and a reviewer for IEEE International Journal on “Automation and Systems”. He has executed / executing projects and consultancy works funded by Government and private funded agencies worth more than Rs. 1.5 crores. He has published and presented more than 70 technical papers in National and International Journals / conferences. The number of corporate training programmes / faculty development programmes / technical talks conducted is more than 100. He has guided more than 100 Under-Graduate and Post-Graduate student projects and many of them have been implemented by manufacturing and service organizations. He is an active member QCFI, ORSI, ISTE, IIMs & IIIE. He holds administrative posts in various Academic, Statutory, Compliance, NBA and TEQIP Committees of the Institution and other Autonomous colleges. He has received many awards viz. Excellence in Education Award at RVCE, Best Paper Award in many National and International Conferences, Dr. S R Gollapudi Award 2013 from IIIE-India, Vision Group on Science and Technology under K-FIST Level II, Govt. of Karnataka for establishing Non Destructive Testing Laboratory for Post Graduate Courses and Research from Hon. Chief Minister of Karnataka and Bharat Ratna Prof. C N R Rao on 16th June 2014 and Cognizant award for Best Researcher from ISTE-RVCE Chapter during Teachers’ Day celebration on 30th September 2014. His other interests includes: Cricket, Music and travelling</p>
+            <a href="https://www.rvce.edu.in/principal-rvce"  class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/Principal.jpg">
+        </div>
+    </div>
+</section>
+
+<!---footer--->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>R.V. College of Engineering (RVCE) established in 1963 is one of the earliest self-financing engineering colleges in the country. The institution is run by Rashtreeya Sikshana Samithi Trust (RSST) a not for profit trust. The trust runs over 25 institutions and RVCE is the flagship institute under the trust. RVCE is today recognized as one of India’s leading technical institution.</p>
+    <div class="icons">
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made By Farhan</p>
+</section>
+ <!---Javascript for toggle Menu-->
+ <script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+ </script> 
+</body>
+</html>
